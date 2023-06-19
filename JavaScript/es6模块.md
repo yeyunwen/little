@@ -171,6 +171,5 @@ import(`./section-modules/${someVariable}.js`)
 有了import() 就可以实现按需加载，条件加载，动态的模块路径。
 
 >参考内容
-1.https://es6.ruanyifeng.com/#docs/module
-2.https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/export
-
+1.<https://es6.ruanyifeng.com/#docs/module>
+2.<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/export>
