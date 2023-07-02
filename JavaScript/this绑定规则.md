@@ -224,6 +224,6 @@ bar.a // 2
 
 参考内容
 
-* [博客园博客]('https://www.cnblogs.com/echolun/p/11962610.html')
+* [博客园博客](https://www.cnblogs.com/echolun/p/11962610.html)
 
 下一篇：[this规则优先级](./this%E8%A7%84%E5%88%99%E4%BC%98%E5%85%88%E7%BA%A7.md)
