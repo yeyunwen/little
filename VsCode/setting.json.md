@@ -15,7 +15,18 @@
         "source.fixAll": true
     },
     "editor.tabSize": 4,
-
+    // 注释的样式
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "fontStyle": "",
+            "foreground": "#679A02FF"
+        }
+    },
+    // 插件markdowlint的配置
+    "markdownlint.config": {
+        // 插件作者希望我们是纯markdown语法，用了html语法会警告，以下配置关闭警告
+        "MD033": false
+    }
     // 默认使用prettier格式化支持的文件
     "vetur.completion.autoImport": false,
     "vetur.format.defaultFormatter.js": "prettier",
