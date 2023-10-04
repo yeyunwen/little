@@ -1,0 +1,18 @@
+cross 交叉
+axis 轴
+flow 流
+basis 基础
+grow 使增长
+gap 间隙
+stretch 伸展
+depend 依赖
+notify 通知
+property 属性
+bundle 软件包
+apply 应用
+arguments 参数
+inject 注入
+compression 压缩
+overview 概述
+tree-shaking 树摇  （一种优化）
+source 来源
