@@ -16,3 +16,12 @@ compression 压缩
 overview 概述
 tree-shaking 树摇  （一种优化）
 source 来源
+layer 层
+popup 弹出
+setup 设置 安装
+default 默认
+define 定义
+costomize 定制
+latest 最新的
+compile 编译
+emit 发出
