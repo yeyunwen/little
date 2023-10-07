@@ -25,3 +25,5 @@ costomize 定制
 latest 最新的
 compile 编译
 emit 发出
+impossible 不可能
+method 方法
