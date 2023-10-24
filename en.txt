@@ -30,3 +30,5 @@ method 方法
 duplicate 重复 副本的
 repeat 重复
 patch 补丁
+remote 远程的
+prune 修正
