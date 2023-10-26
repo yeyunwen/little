@@ -32,3 +32,4 @@ repeat 重复
 patch 补丁
 remote 远程的
 prune 修正
+resolver 解析器
