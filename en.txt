@@ -8,7 +8,6 @@ stretch 伸展
 depend 依赖
 notify 通知
 property 属性
-bundle 软件包
 apply 应用
 arguments 参数
 inject 注入
@@ -40,3 +39,8 @@ harmony 和谐
 flat 平的
 private 私有的
 bundle 捆。在编程中指的是将多个文件或模块打包到一个文件中的操作或结果，以便于在应用程序中使用
+behind 在...后面 落后于...
+major 专业
+deploy 部署
+record 记录 re 再次 cord 心脏
+performant 高性能
