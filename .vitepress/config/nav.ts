@@ -49,4 +49,27 @@ const generateNavItemWithLink = (
   };
 };
 
-export const nav = generateNav();
+const customSort = [
+  "JavaScript",
+  "TypeScript",
+  "NodeJs",
+  "Npm",
+  "Bug",
+  "Interview",
+  "服务器",
+  "规范化",
+  "构建工具",
+  "其他",
+];
+
+const generateNavWithCustomSort = (
+  nav: DefaultTheme.NavItem[]
+): DefaultTheme.NavItem[] => {
+  const sortNav: DefaultTheme.NavItem[] = [];
+  customSort.forEach((item) => {
+    sortNav.push(nav.find((i) => i.text === item) as DefaultTheme.NavItem);
+  });
+  return sortNav;
+};
+
+export const nav = generateNavWithCustomSort(generateNav());
