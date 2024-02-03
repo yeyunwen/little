@@ -7,6 +7,8 @@ export default defineConfig({
   title: "little",
   description: "cloudhot的文档网站",
   ignoreDeadLinks: true, // 忽略 dead link
+  head: [["link", { rel: "icon", href: "/logo.svg" }]],
+  base: "/little/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.svg",
