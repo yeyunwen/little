@@ -4,6 +4,7 @@ const ROOT_PATH = process.cwd();
 const IGNORE_DIR = [
   "node_modules",
   ".idea",
+  ".github",
   ".vitepress",
   ".vscode",
   ".git",
