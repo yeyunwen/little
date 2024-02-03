@@ -1,0 +1,19 @@
+{
+  "name": "little",
+  "version": "1.0.0",
+  "description": "Make a little progress every day",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.15",
+    "vitepress": "1.0.0-rc.40"
+  }
+}
