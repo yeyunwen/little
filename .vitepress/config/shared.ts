@@ -13,6 +13,8 @@ const IGNORE_DIR = [
   "Vue",
 ];
 
+const base = "/little/";
+
 const getDirList = (dirPath: string) => {
   return fs
     .readdirSync(dirPath, { withFileTypes: true })
@@ -39,4 +41,4 @@ const getFirstFileName = (dirPath: string) => {
 
 const dirList = getDirList(ROOT_PATH);
 
-export { ROOT_PATH, IGNORE_DIR, dirList, getDirList, getFirstFileName };
+export { ROOT_PATH, IGNORE_DIR, dirList, base, getDirList, getFirstFileName };

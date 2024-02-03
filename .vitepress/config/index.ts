@@ -1,14 +1,16 @@
+import path from "path";
 import { defineConfig } from "vitepress";
 import { nav } from "./nav";
 import { sidebar } from "./sidebar";
+import { base } from "./shared";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "little",
   description: "cloudhot的文档网站",
   ignoreDeadLinks: true, // 忽略 dead link
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
-  base: "/little/",
+  head: [["link", { rel: "icon", href: path.join(base, "/logo.svg") }]],
+  base,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/logo.svg",
