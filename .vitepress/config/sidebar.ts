@@ -38,12 +38,24 @@ const generateSidebar = (): DefaultTheme.Sidebar => {
 
 const generateSidebarItems = (dirPath: string): DefaultTheme.SidebarItem[] => {
   const fileList = fs.readdirSync(dirPath);
-  return fileList.map((fileName) => {
+  const filteredFileList = filterIgnoreFile(fileList);
+
+  return filteredFileList.map((fileName) => {
     const text = fileName.replace(".md", "");
     return {
       text,
       link: text,
     };
+  });
+};
+
+// 过滤文件
+const filterIgnoreFile = (fileList: string[]): string[] => {
+  const IGNORE_FILE_TYPE = [".png"];
+  return fileList.filter((item) => {
+    return !IGNORE_FILE_TYPE.some((type) => {
+      return item.endsWith(type);
+    });
   });
 };
 
